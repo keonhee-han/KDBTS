@@ -197,19 +197,16 @@ python scripts/videos/gen_vid_transition.py
 
 # 🗣️ Acknowledgements
 
-This work was supported by the ERC Advanced Grant SIMULACRON, the GNI project AI4Twinning and the Munich Center for Machine Learning.
-C. R. is supported by VisualAI EP/T028572/1 and ERC-UNION-CoG-101001212.
+This work was supported by the ERC Advanced Grant SIMULACRON, by the Munich Cen- ter for Machine Learning, and by the German Federal Min- istry of Transport and Digital Infrastructure (BMDV) under grant 19F2251F for the ADAM project.
 
 This repository is based on the [Behind The Scenes](https://github.com/Brummi/BehindTheScenes) code base and have inspirations from [IBRNet](https://github.com/googleinterns/IBRNet), [GeoNeRF](https://github.com/idiap/GeoNeRF), and [PixelNeRF](https://github.com/sxyu/pixel-nerf).
 
 <!-- # TODO
 1. Code brush up official code base for reproducibility.
 2. Uploading pretrained KDBTS model
-3. Eval comparison for Neo 360 outdoor scenario
 
 ## Maybe Extra:
 1. Make efficient transformer for faster training c.f. EfficientViT
-2. 
 To choose one of GPUs in the local machine, set the following environment variables:
 ```bash
 export HYDRA_FULL_ERROR=1
